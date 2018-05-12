@@ -7,6 +7,7 @@
 		<title>Maquette 2</title>
 	</head>
 	<body>
+		<!-- -------------PARTIE 1------------------- -->
 		<header>
 			<div class="container">
 				<div id="meth">
@@ -27,7 +28,8 @@
 				<button type="button" name="see more">See more</button>
 		</div>
 		</header>
-
+	<!-- -------------PARTIE 1------------------- -->
+		<!-- -------------PARTIE 2------------------- -->
 		<section id="services">
 			<div class="container">
 				<div class="trait">
@@ -69,7 +71,8 @@
 					</div>
 			</div>
 		</section>
-
+	<!-- -------------PARTIE 2------------------- -->
+		<!-- -------------PARTIE 3------------------- -->
 		<section id="portfolio">
 			<div class="container">
 				<div class="trait">
@@ -95,7 +98,8 @@
 				</div>
 			</div>
 		</section>
-
+	<!-- -------------PARTIE 3------------------- -->
+		<!-- -------------PARTIE 4------------------- -->
 		<section id="testimoriels">
 			<div class="container">
 				<h4>Honestly, these guys are the best people around to work with. They are super commited, delivering exceptional work always.</h4>
@@ -104,7 +108,8 @@
 				<button type="button" value="right"><i class="fas fa-angle-right"></i></button>
 			</div>
 		</section>
-
+	<!-- -------------PARTIE 4------------------- -->
+		<!-- -------------PARTIE 5------------------- -->
 		<section id="team">
 			<div class="container">
 				<div class="trait">
@@ -142,7 +147,8 @@
 				</div>
 			</div>
 		</section>
-
+	<!-- -------------PARTIE 5------------------- -->
+		<!-- -------------PARTIE 6------------------- -->
 		<section id="static">
 			<div class="container">
 				<div id="stat">
@@ -155,7 +161,8 @@
 			</div>
 			</div>
 		</section>
-
+	<!-- -------------PARTIE 6------------------- -->
+		<!-- -------------PARTIE 7------------------- -->
 		<section id="contact">
 			<div class="container">
 				<div class="trait">
@@ -189,39 +196,48 @@
 						<div id="message">
 							<h3>Send us a direct message</h3>
 							<form method="post" action="/actionPage.php">
-								<input type="text" name="name" placeholder="Your Name" autofocus="">
+								<!-- <input type="text" name="name" placeholder="Your Name" autofocus=""> -->
 								<label for="name">Your Name</label>
 								<input type="text" name="email" placeholder="Your Email">
 								<label for="email">Your Email</label>
-								<input type="text" name="message" placeholder="Enter your message here">
+								<textarea name="message" id="message" rows="10" cols="50" placeholder="Enter your message here">Enter your message here</textarea>
 								<label for="message">Enter your message here</label>
-								<!-- <textarea name="message" id="message" rows="10" cols="50">Enter your message here</textarea> -->
-								<input type="submit" value="Send Message" name="Send Message">
+								<button type="submit" value="sendMessage" name="sendMessage">Send Message</button>
 							</form>
 						</div>
 					</div>
 			</div>
 		</section>
-
-		<footer>
+	<!-- -------------PARTIE 7------------------- -->
+		<!-- -------------PARTIE 8------------------- -->
+		<section id="blog">
 			<div class="container">
 				<h2>From Our Blog</h2>
-				<div id="markup">
-					<h3>Markup: HTML Tags and Formatting</h3>
-					<p>04 February 2014</p>
-				</div>
-				<div id="day">
-					<h3>The day we won our first award</h3>
-					<p>24 January 2014</p>
-				</div>
-				<div id="working">
-					<h3>Why working from home can be bad</h3>
-					<p>24 January 2014</p>
-				</div>
+					<div id="evenement">
+						<div class="rubrique">
+							<h3>Markup: HTML Tags and Formatting</h3>
+							<p>04 February 2014</p>
+						</div>
+						<div class="rubrique">
+							<h3>The day we won our first award</h3>
+							<p>24 January 2014</p>
+						</div>
+						<div class="rubrique">
+							<h3>Why working from home can be bad</h3>
+							<p>24 January 2014</p>
+						</div>
+					</div>
 				<button type="button" name="left"><i class="fas fa-angle-left"></i></button>
 				<button type="button" name="right"><i class="fas fa-angle-right"></i></button>
-				<p><i class="far fa-copyright"></i>2016 Meth - A WorldPress Theme made with passion by Codestag</p>
+			</div>
+		</section>
+			<!-- -------------PARTIE 8------------------- -->
+			 <!-- -------------PARTIE 9------------------- -->
+		<footer>
+			<div class="container">
+				<p><i class="far fa-copyright"></i>2016 <span>Meth</span> - A WorldPress Theme made with passion by <span>Codestag</span></p>
 			</div>
 		</footer>
+			<!-- -------------PARTIE 9------------------- -->
 	</body>
 </html>
